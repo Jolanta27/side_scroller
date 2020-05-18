@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){console.log("Hello world");document.querySelector("#root"),document.querySelectorAll("section");document.addEventListener("mousewheel",function(e){console.log(e.wheelDelta)})});
