@@ -57,6 +57,7 @@ function () {
   }, {
     key: "scroll",
     value: function scroll(direction) {
+      // console.log(direction)
       if (direction === 1) {
         var isLastSection = this.currentSectionIndex === this.sections.length - 1;
         if (isLastSection) return;
