@@ -2,5 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   var scroller = new Scroller('#root');
-  document.addEventListener('mousewheel', scroller.listenScroll);
+  document.addEventListener('wheel', function (event) {
+    return scroller.listenScroll(event);
+  });
 });

@@ -1,1 +1,1 @@
-"use strict";document.addEventListener("DOMContentLoaded",function(){var e=new Scroller("#root");document.addEventListener("mousewheel",e.listenScroll)});
+"use strict";document.addEventListener("DOMContentLoaded",function(){var n=new Scroller("#root");document.addEventListener("wheel",function(e){return n.listenScroll(e)})});
