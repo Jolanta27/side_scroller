@@ -5,4 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('wheel', function (event) {
     return scroller.listenScroll(event);
   });
+  document.addEventListener('swipeUp', function () {
+    return scroller.scroll(1);
+  });
+  document.addEventListener('swipeDown', function () {
+    return scroller.scroll(-1);
+  });
 });
